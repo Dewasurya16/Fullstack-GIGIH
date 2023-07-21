@@ -1,0 +1,110 @@
+[{
+  "_id": {
+    "$oid": "64b6060ae770792be45e74f9"
+  },
+  "name": "Yeni Inka",
+  "date_of_birth": "1990-07-25",
+  "genres": [
+    "koplo",
+    "Pop"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64b6060ae770792be45e74fa"
+  },
+  "name": "Nadin Amizah",
+  "date_of_birth": "1999-12-12",
+  "genres": [
+    "Indie ",
+    "Pop"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64b6060ae770792be45e74fb"
+  },
+  "name": "Raisa",
+  "date_of_birth": "1990-06-06",
+  "genres": [
+    "Pop",
+    "Pop"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64b6060ae770792be45e74fc"
+  },
+  "name": "Afgan",
+  "date_of_birth": "1989-05-27",
+  "genres": [
+    "Pop",
+    "Pop"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64b6060ae770792be45e74fd"
+  },
+  "name": "David Brown",
+  "date_of_birth": "1995-12-03",
+  "genres": [
+    "Rock",
+    "Folk"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64b6060ae770792be45e74fe"
+  },
+  "name": "John Smith",
+  "date_of_birth": "1990-01-01",
+  "genres": [
+    "Rock",
+    "Rock"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64b6060ae770792be45e74ff"
+  },
+  "name": "Jane Doe",
+  "date_of_birth": " 1995-02-02",
+  "genres": [
+    "Pop",
+    "Pop"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64b6060ae770792be45e7500"
+  },
+  "name": "John Doe",
+  "date_of_birth": "1990-03-03",  
+  "genres": [
+    "Rock",
+    "Rock"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64b6060ae770792be45e7501"
+  },
+  "name": "John Johnson",
+  "date_of_birth": "1991-08-29",
+  "genres": [
+    "Rock",
+    "Reggae"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64b6060ae770792be45e7502"
+  },
+  "name": "Emma Davis",
+  "date_of_birth": "1996-02-14",
+  "genres": [
+    "Pop",
+    "R&B"
+  ]
+}]

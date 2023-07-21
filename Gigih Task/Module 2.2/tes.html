@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fetch Data from Express.js Server</title>
+</head>
+<body>
+  <div id="musicList">
+
+  </div>
+
+  <script>
+    const apiUrl = 'http://localhost:3000/musics';
+
+    fetch(apiUrl)
+      .then(response => response.json())
+      .then(data => {
+        const musicListDiv = document.getElementById('musicList');
+        data.forEach(music => {
+          const musicItem = document.createElement('p');
+          musicItem.textContent = `${music.title} - ${music.artist}`;
+          musicListDiv.appendChild(musicItem);
+          return musicItem;
+        });
+      })
+      .catch(error => console.log(error));
+  </script>
+</body>
+</html>

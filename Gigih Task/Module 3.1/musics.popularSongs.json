@@ -1,0 +1,82 @@
+[{
+  "_id": {
+    "$oid": "64b55f646de38a679ae855a9"
+  },
+  "title_song": "Sebuah Tarian Yang tak kunjung selesai",
+  "times_played": 100,
+  "periode_of_time": "2021-01-01"
+},
+{
+  "_id": {
+    "$oid": "64b55f646de38a679ae855aa"
+  },
+  "title_song": "Sorai",
+  "times_played": 75,
+  "periode_of_time": "2021-02-02"
+},
+{
+  "_id": {
+    "$oid": "64b55f646de38a679ae855ab"
+  },
+  "title_song": "Rayuan perempuan gila",
+  "times_played": 120,
+  "periode_of_time": "2021-03-03"
+},
+{
+  "_id": {
+    "$oid": "64b55f646de38a679ae855ac"
+  },
+  "title_song": "Kau Adalah",
+  "times_played": 50,
+  "periode_of_time": "2021-04-04"
+},
+{
+  "_id": {
+    "$oid": "64b55f646de38a679ae855ad"
+  },
+  "title_song": "Remaja",
+  "times_played": 80,
+  "periode_of_time": "2021-05-05"
+},
+{
+  "_id": {
+    "$oid": "64b55f646de38a679ae855ae"
+  },
+  "title_song": "Rehat",
+  "times_played": 90,
+  "periode_of_time": "2021-06-06"
+},
+{
+  "_id": {
+    "$oid": "64b55f646de38a679ae855af"
+  },
+  "title_song": "Bad Guy",
+  "times_played": 110,
+  "periode_of_time": "2021-07-07"
+},
+{
+  "_id": {
+    "$oid": "64b55f646de38a679ae855b0"
+  },
+  "title_song": "Waka Waka",
+  "times_played": 70,
+  "periode_of_time": "2021-08-08"
+},
+{
+  "_id": {
+    "$oid": "64b55f646de38a679ae855b1"
+  },
+  "title_song": "Happy",
+  "times_played": {
+    "$numberLong": "3600000000"
+  },
+  "periode_of_time": "2021-09-09"
+},
+{
+  "_id": {
+    "$oid": "64b55f646de38a679ae855b2"
+  },
+  "title_song": "worth it",
+  "times_played": 105,
+  "periode_of_time": "2021-10-10"
+}]
