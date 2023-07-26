@@ -38,7 +38,7 @@ const addSong = (req, res) => {
   const { title, artist, url } = req.body;
   const newSong = { title, artist, url, played: 0 };
   musicModel.push(newSong);
-  res.json({ message: 'message' });
+  res.json({ message: req.body });
 };
 
 // Play song from playlist
