@@ -16,25 +16,25 @@ const videoSchema = new mongoose.Schema({
       type:String,
       required:true
     },
-    product : [{
-      product_name: {
+    Produk : [{
+      nama_produk: {
         type:String,
         required:true
       },
-      price_product: {
+      harga_produk: {
         type:Number,
         required:true
       },
-      thumbnail_product: {
+      Thumbnail_produk: {
         type:String,
         required:true
       },
-      link_product: {
+      link_produk: {
         type:String,
         required:true
       },
   }]
 })
-const Product = mongoose.model("videos", videoSchema)
+const Videos = mongoose.model("product", videoSchema)
 
-export default Product;
+export default Videos;

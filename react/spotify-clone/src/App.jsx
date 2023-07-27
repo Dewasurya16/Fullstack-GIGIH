@@ -1,9 +1,5 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -46,9 +42,6 @@ function App() {
             <p className="mb__16 font__roboto">Playlist</p>
             <div className="flex mb__16">
               <div className="box__white">
-                <FontAwesomeIcon icon={faCoffee} style={{color: "red"}}>
-
-                </FontAwesomeIcon>
               </div>
               <p className="align-center font__montserrat">Create Playlist</p>
             </div>

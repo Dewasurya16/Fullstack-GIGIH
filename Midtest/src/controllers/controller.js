@@ -1,4 +1,4 @@
-import videoModel from '../models/video.js';
+import videoModel from '../models/product.js';
 import commentModel from '../models/comment.js';
 
 const index = async (req, res) =>{
