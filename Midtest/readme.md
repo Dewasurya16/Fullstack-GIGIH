@@ -22,10 +22,10 @@ This project have 2 collection, videos and comment.
     video_title: string
     product : [
       {
-        product_name:  string
-        price_product:  number
-        thumbnail_product:  string
-        link_product:  string
+        nama_produk:  string
+        harga_produk:  number
+        thumbnail_produk:  string
+        link_produk:  string
       }
     ]
   }
@@ -98,10 +98,10 @@ Return all videos from databases.
       video_title,
       product : [
         {
-          product_name,
-          price_product,
-          thumbnail_product,
-          link_product
+          nama_produk,
+          harga_produk,
+          thumbnail_produk,
+          link_produk
         }
       ]
     }
@@ -133,10 +133,10 @@ Return videos associated with the specified id.
       video_title,
       product : [
         {
-          product_name,
-          price_product,
-          thumbnail_product,
-          link_product
+     	  nama_produk,
+          harga_produk,
+          thumbnail_produk,
+          link_produk
         }
       ]
     }
@@ -163,10 +163,10 @@ Return all product from databases.
   result : [
     [
       {
-        product_name,
-        price_product,
-        thumbnail_product,
-        link_product
+          nama_produk,
+          harga_produk,
+          thumbnail_produk,
+          link_produk
       }
     ]
   ]
