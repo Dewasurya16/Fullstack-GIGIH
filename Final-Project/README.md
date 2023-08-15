@@ -5,7 +5,7 @@
 - Show all product and comment by video
 - Add new comment by video
 # Backend
-[Backend Repository](https://github.com/Shironim/MidTermProject)
+[Backend Repository](https://github.com/Dewasurya16/Fullstack-GIGIH/tree/main/Midtest)
 
 ## Database Structure
 This project have 3 collection, videos, comment and product. 
