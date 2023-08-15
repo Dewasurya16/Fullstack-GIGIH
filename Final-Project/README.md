@@ -36,10 +36,10 @@ This project have 3 collection, videos, comment and product.
 ```
 {
   videoId :  string
-  product_name:  string
-  price_product:  number
-  thumbnail_product:  string
-  link_product:  string
+  nama_produk:  string
+  harga_produk:  number
+  thumbnail_produk:  string
+  link_produk:  string
 }
 ```
 
@@ -78,10 +78,10 @@ Return all videos from databases.
 {
   result : [
     {
-      video_id,
-      thumbnail,
-      shop_name,
-      video_title,
+      nama_produk,
+          harga_produk,
+          thumbnail_produk,
+          link_produk
     }
   ]
 }
@@ -112,10 +112,10 @@ Return videos associated with the specified id.
       products : [
         {
           videoId,
-          product_name,
-          price_product,
-          thumbnail_product,
-          link_product
+          nama_produk,
+          harga_produk,
+          thumbnail_produk,
+          link_produk
         }
       ]
       comment : [
@@ -149,10 +149,10 @@ Return all product from databases.
   result : [
     {
       videoId,
-      product_name,
-      price_product,
-      thumbnail_product,
-      link_product
+      nama_produk,
+          harga_produk,
+          thumbnail_produk,
+          link_produk
     }
   ]
 }
@@ -223,10 +223,10 @@ Creates a new Product and returns the new object.
   ```
   {
     videoId :  string
-    product_name :  string
-    price_product :  int
-    thumbnail_product :  string
-    link_product :  string
+     nama_produk,
+          harga_produk,
+          thumbnail_produk,
+          link_produk
   }
   ```
 * **Headers**  
